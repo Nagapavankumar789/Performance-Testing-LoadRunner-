@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\10699367\Documents\VuGen\Scripts\SC05_Jpetstore
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\10699367\documents\vugen\scripts\sc05_jpetstore\\logfile.log
+c:\users\10699367\documents\vugen\scripts\sc05_jpetstore\\combined_SC05_Jpetstore.c
+c:\users\10699367\documents\vugen\scripts\sc05_jpetstore\\pre_cci.c

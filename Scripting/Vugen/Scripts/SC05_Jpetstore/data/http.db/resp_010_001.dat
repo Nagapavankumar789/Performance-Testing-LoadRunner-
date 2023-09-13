@@ -1,0 +1,86 @@
+<!--# Id: internetaccess.html 285144 2021-06-16 05:02:06Z szhang -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta name="description" content="Zscaler makes the internet safe for businesses by protecting their employees from malware, viruses, and other security threats.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internet Security by Zscaler</title>
+<script language="JavaScript">var defLang = 'en_US'</script>
+<!--<img alt="Zscaler" src="https://login.zscalerthree.net/img_logo_new1.png">-->
+<style type="text/css">
+body {
+background-color:#e3e3e3;
+font-family:Arial, sans-serif;
+font-size:12px;
+color:#4B4F54;
+}
+a {
+cursor:pointer;
+text-decoration:none;
+color:#009dd0;
+}
+table {
+margin-top:10px;
+}
+td table {
+margin-top:0;
+text-align:center;
+}
+img {
+max-height:75px;
+max-width:430px;
+}
+.pg {
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+overflow-x:hidden;
+white-space:nowrap;
+}
+.pg:before {
+content:"";
+display:inline-block;
+height:100%;
+vertical-align:middle;
+}
+.pg_cont {
+display:inline-block;
+vertical-align:middle;
+width:100%;
+position:relative;
+}
+.a_i {
+width:19px;
+height:19px;
+margin-right:10px;
+background-size: 19px 19px;
+display:inline-block;
+}
+.m_tbl {
+width:100%;
+max-width:758px;
+background:#e3e3e3;
+min-width:600px;
+}
+.pg.red .eu_h {
+color:#fd4239;
+border-top:3px solid #fd4239;
+}
+.pg.red .eu_h .a_i {
+background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABoElEQVR4nK3Uz2vIYRzA8dcMzWGJdjSZKZLCDphfB7XVHBAXF2XFpJxd+BvUbtY20m4KxVExtbWkUYQLByU3OVhpy8zh+Tzr2dN3t30un1/P834+z/N8noc1lBZYPNVbx3twDQPYFuN+4RUm8ARL5YTWFzPWVZA2jGIWQ+jMC2ILzuERZrCjrmB9YW/CcxwLfwFTAf6J3TiPzTiMNziJz02wkQL0DpfwsVp8OCAb0IFnOIA5LG/zeEwWgN4GUBeeBihLN25mJ8NuhF7CIOYbQJPYHv59fAv7OlpL2OnQH2IbpexsAF3BePgdOFTC2kO/bQC9LED3AvTPymPoYuUFkHqprqizAF0NECwWY9vKynJi1yqg8QoEBwv7ewmbCt2HIw2goQrUgv6wF6QmXoY9KMqdLkBjDSDSueU3+Bi/S9gE3oedY2PS+6xBF3En7Hnczol8AX9xAa+xNWJHpXOajXwPzuBsAR7E1xoGX3BC6vJu7MVdzfIHl/GwDNa/xifsxy1xQ5XMSS2ypwax+n+Wc/ukr2YjfkhNXT81pP9sTeU/6YpejkX0NUMAAAAASUVORK5CYII=');
+}
+.pg.red .eu_h, .pg.red .eu_co, .pg.red .hr {
+border-left:3px solid #fd4239;
+border-right:3px solid #fd4239;
+}
+.pg.red .fo {
+border-bottom-color:#fd4239;
+}
+.pg.red .eu_co.st{
+border:0;
+}
+.pg.yl .eu_h .a_i {
+background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAFgUlEQVR4nO2dOWxcVRSGP0+wWWKSiC1WMAV7SAI0bBLBLBI0bEUSyiSAFC

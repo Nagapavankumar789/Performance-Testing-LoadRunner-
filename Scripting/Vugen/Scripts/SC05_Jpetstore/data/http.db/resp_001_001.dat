@@ -1,0 +1,97 @@
+
+function FindProxyForURL(url, host) {
+
+    var privateIP = /^(0|10|127|192\.168|172\.1[6789]|172\.2[0-9]|172\.3[01]|169\.254|192\.88\.99)\.[0-9.]+$/;
+    var resolved_ip = dnsResolve(host);
+   // var country = "India";
+
+    /* Don't send non-FQDN or private IP auths to us */
+    if (isPlainHostName(host) || isInNet(resolved_ip, "192.0.2.0","255.255.255.0") || privateIP.test(resolved_ip))
+        return "DIRECT";
+
+    /* FTP goes directly */
+    if (url.substring(0,4) == "ftp:")
+        return "DIRECT";
+			
+    /* test with ZPA */
+    if (isInNet(resolved_ip, "100.64.0.0","255.255.0.0"))
+        return "DIRECT";
+        
+/* BYPASS from FORDWARDING PROFILE */
+     if ((shExpMatch(host, "203.199.54.21")) 
+    //  || (isInNet(host, "203.199.54.0","255.255.255.0")) // bypass subnet
+        || (shExpMatch(host, "connect.selective.com")) // Bypass for Hostname
+        || (shExpMatch(host, "usw5.dm-us.informaticacloud.com"))
+        || (shExpMatch(host, "services-ld.ccng.bt.com"))
+        || (shExpMatch(host, "eu.ccng.bt.com"))
+        || (shExpMatch(host, "desktop-ah.ccng.bt.com"))
+        || (shExpMatch(host,"canvasinsights.lntinfotech.com"))
+        || (shExpMatch(host,"fastlane.lntinfotech.com"))
+        || (shExpMatch(host,"dt-cxdbsrv-devint.database.windows.net"))
+        || (shExpMatch(host,"dt-cx-dev-globalsrv.database.windows.net"))
+        || (shExpMatch(host,"dt-cxdbsrv-devint.privatelink.database.windows.net"))
+        || (shExpMatch(host,"dataslice2.westus2.database.windows.net"))
+        || (shExpMatch(host,"dataslice2westus2.trafficmanager.net"))
+        || (shExpMatch(host,"40.78.248.10"))
+        || (shExpMatch(host,"cr5.westus2-a.control.database.windows.net"))
+        || (shExpMatch(host,"dataslice6.eastus.database.windows.net"))
+        || (shExpMatch(host,"dataslice6eastus.trafficmanager.net"))
+        || (shExpMatch(host,"40.78.225.32"))
+        || (shExpMatch(host,"cr5.eastus1-a.control.database.windows.net"))
+        || (shExpMatch(host,"40.79.153.12"))
+        || (shExpMatch(host,"40.78.240.8"))
+        || (shExpMatch(host,"103.146.249.38"))
+        || (shExpMatch(host,"footlocker.workspaceair.com"))
+        || (shExpMatch(host,"cr4.westus2-a.control.database.windows.net"))
+    //  || (shExpMatch(host, "*.lntinfotech.com")) //bypass for wildcard
+    )
+    return "PROXY 127.0.0.1:9000";
+    
+    if (shExpMatch(host,"monaqasat.mof.gov.qa")|| 
+     
+	 shExpMatch(host,"zawil.com.sa") ||
+	 (shExpMatch(host,"*.wvd.microsoft.com")))
+
+     return "PROXY 127.0.0.1:9000";
+        
+    /* Updates are directly accessible */
+      //if (dnsDomainIs(host, "<domain>"))
+      //return "PROXY 127.0.0.1:9000"
+      
+	if ((dnsDomainIs(host,".adobelogin.com")) || (dnsDomainIs(host,".services.adobe.com"))) 
+	  return "PROXY 127.0.0.1:9000";
+	  	
+	  
+    /* Updates are directly accessible */
+    if (((localHostOrDomainIs(host, "trust.zscaler.com")) ||
+            (localHostOrDomainIs(host, "trust.zscaler.net")) ||
+            (localHostOrDomainIs(host, "trust.zscalerone.net")) ||
+            (localHostOrDomainIs(host, "trust.zscalertwo.net")) ||
+            (localHostOrDomainIs(host, "trust.zscalerthree.net")) ||
+            (localHostOrDomainIs(host, "trust.zscalergov.net")) ||
+            (localHostOrDomainIs(host, "trust.zsdemo.net")) ||
+            (localHostOrDomainIs(host, "trust.zscloud.net")) ||
+            (localHostOrDomainIs(host, "trust.zsfalcon.net")) ||
+            (localHostOrDomainIs(host, "trust.zdxcloud.net")) ||
+            (localHostOrDomainIs(host, "trust.zdxpreview.net")) ||
+            (localHostOrDomainIs(host, "trust.zdxbeta.net")) ||
+            (localHostOrDomainIs(host, "trust.zsdevel.net")) ||
+            (localHostOrDomainIs(host, "trust.zsbetagov.net")) ||
+			(localHostOrDomainIs(host, "trust.zspreview.net")) ||
+			(localHostOrDomainIs(host, "trust.zscalerten.net")) ||
+			(localHostOrDomainIs(host, "trust.zdxten.net")) ) &&
+            (url.substring(0,5) == "http:" || url.substring(0,6) == "https:"))
+        return "DIRECT";
+
+	/* for users of Canada if you want to direct traffic to only canada gateways*/
+//	if (shExpMatch(country, "Canada")) {
+//	 	return "PROXY 165.225.120.36:80; PROXY 165.225.124.36:80;DIRECT";
+//	}
+
+	/* for all users if you want to direct traffic to country gateways by default */
+//	return "PROXY 165.225.120.36:80; PROXY 165.225.124.36:80;DIRECT";
+
+
+    /* Default Traffic Forwarding. Return DIRECT to tunnel using Tunnel2 */
+return "DIRECT";
+}

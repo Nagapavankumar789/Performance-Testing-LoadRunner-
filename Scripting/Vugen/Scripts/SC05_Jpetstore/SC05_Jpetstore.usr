@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SC05_Jpetstore.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SC05_JPETSTORE_TR01_CLICK ON ENTER THE STORE__*delimiter*__SC05_JPETSTORE_TR02_CLICK ON SIGN IN__*delimiter*__SC05_JPETSTORE_TR03_CLICK ON LOGIN__*delimiter*__SC05_JPETSTORE_TR04_SELECT PRODUCT__*delimiter*__SC05_JPETSTORE_TR05_SELECT PRODUCT ID__*delimiter*__SC05_JPETSTORE_TR09_CLICK ON CONFIRM__*delimiter*__SC05_JPETSTORE_TR06_CLICK ON ADD TO CART__*delimiter*__SC05_JPETSTORE_TR07_CLICK ON PROCEED TO CHECKOUT__*delimiter*__SC05_JPETSTORE_TR11_CLICK ON SIGN OUT__*delimiter*__SC05_JPETSTORE_TR08_CLICK ON CONTINUE__*delimiter*__SC05_JPETSTORE_TR10_CLICK ON RETRURN TO MAIN MENU"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"SC05_JPETSTORE_TR01_CLICK ON ENTER THE STORE"=
+"SC05_JPETSTORE_TR02_CLICK ON SIGN IN"=
+"SC05_JPETSTORE_TR03_CLICK ON LOGIN"=
+"SC05_JPETSTORE_TR04_SELECT PRODUCT"=
+"SC05_JPETSTORE_TR05_SELECT PRODUCT ID"=
+"SC05_JPETSTORE_TR09_CLICK ON CONFIRM"=
+"SC05_JPETSTORE_TR06_CLICK ON ADD TO CART"=
+"SC05_JPETSTORE_TR07_CLICK ON PROCEED TO CHECKOUT"=
+"SC05_JPETSTORE_TR11_CLICK ON SIGN OUT"=
+"SC05_JPETSTORE_TR08_CLICK ON CONTINUE"=
+"SC05_JPETSTORE_TR10_CLICK ON RETRURN TO MAIN MENU"=

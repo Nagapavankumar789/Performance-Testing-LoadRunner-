@@ -1,0 +1,260 @@
+[API Trapper      (408c:4f54)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (23ac:6f54)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (7ba0:6690)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (7ba0: 688)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7ba0: 688)] Load Network Traffic Analyzers:
+[Network Analyzer (7ba0: 688)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (7ba0: 688)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (7ba0: 688)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (7ba0: 688)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (7ba0: 688)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (7ba0: 688)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (7ba0: 688)]     Analyzer Module: local_server (value=)
+[Network Analyzer (7ba0: 688)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7ba0:3c04)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Net An. Debug    (7ba0:3c04)] IP address belongs to the VirtualBox, taking the another interface with ip=10.206.122.185
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 127.0.0.1:9000   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Web Request      (7ba0:3c04)] "GET /systemproxy-be13bdf1.pac"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  1) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 127.0.0.1:9000   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (7ba0:3c04)]   (Sid:  1) Server -> Client : 4581 bytes  (Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /systemproxy-be13bdf1.pac"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  2) Client -> Server @ : 282 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  2) Server -> Client : 4581 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  2) Connection Terminated (by Client)
+[API Trapper      (8238:9658)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.67:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (7ba0:97ec)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (7ba0:4298)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0:97ec)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7ba0:4298)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.66.14:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.67.173:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (7ba0:9284)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0: dc8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (7ba0:3c04)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=116"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  3) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:9284)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7ba0: dc8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Server -> Client : 172 bytes (SSL) (Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=116.0.5845.180&lang=en-US&acceptformat=crx3,puff&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26brand%3DGCEA%26ping%3Dr%253D1%2526e%253D1"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  5) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  3) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  5) Server -> Client : 1157 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.182.202:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (7ba0:5ed4)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.182.195:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /generate_204"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  8) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  8) Server -> Client : 127 bytes  (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (7ba0:5ed4)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (7ba0:3c04)] "GET /favicon.ico"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Web Request      (7ba0:3c04)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  7) Client -> Server @ : 1308 bytes (SSL)(Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  9) Client -> Server @ : 391 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  9) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  9) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  9) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  7) Server -> Client : 1075 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Server -> Client : 986 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 10) Client -> Server @ : 391 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=1"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 11) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 11) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.99:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (7ba0:3148)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (7ba0:3148)] SSLAccept(ssl_id = 2328588297504 = 0000021E2AADA520) Failed, ctx = 0000021E2AAB2B30, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (7ba0:3148)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=2"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 13) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.99:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (7ba0:3c04)] "POST /service/update2/json?cup2key=13:X-C32JxTrnsa8oDJ4_UB2Lsv3bLLfy98Ip30blpE4yM&cup2hreq=a66745edc3441f0bcdaabe6203a7e86a248e9d4f7767fd03af1c1d33b6d04ac3"
+[Network Analyzer (7ba0:3c04)]   (Sid: 14) Client -> Server @ : 1226 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 14) Client -> Server @ : 8336 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 13) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid: 14) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 14) Server -> Client : 94 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 12) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click On Enter the store [Web Request      (7ba0:3c04)] "GET /actions/Catalog.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Server -> Client : 1235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.99:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (7ba0:7204)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (7ba0:7204)] SSLAccept(ssl_id = 2328588297504 = 0000021E2AADA520) Failed, ctx = 0000021E2AAB2B30, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (7ba0:7204)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7ba0:3c04)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.99:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (7ba0:3c04)] "POST /service/update2/json"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 16) Client -> Server @ : 1811 bytes (Service=HTTP)
+[User action                 ] EndTransactionEvent Click On Enter the store [Network Analyzer (7ba0:3c04)]   (Sid: 16) Server -> Client : 820 bytes  (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.99:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (7ba0:6ca4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (7ba0:6ca4)] SSLAccept(ssl_id = 2328587491584 = 0000021E2AA15900) Failed, ctx = 0000021E2AAB2B30, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (7ba0:6ca4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7ba0:3c04)]   (Sid: 16) Client -> Server @ : 303 bytes (Service=HTTP)
+[Web Request      (7ba0:3c04)] "POST /service/update2/json"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 16) Client -> Server @ : 1503 bytes (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=3"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 18) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 18) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 16) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 18) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid: 17) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click On Sign In [Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (7ba0:6b28)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0:6b28)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (7ba0:3c04)] "GET /actions/Account.action;jsessionid=F31D3FC3188C9A7F6A5BB4366CB49D3F?signonForm="   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 866 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 3851 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click On Sign In [User action                 ] StartTransactionEvent Click On Login [Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (7ba0:3c04)] "POST /actions/Account.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 1240 bytes (SSL)(Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=4"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 20) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 20) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 20) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 20) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 218 bytes (SSL) (Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /actions/Catalog.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 892 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.67.202:443   (Service=)  (Sid= 21)  PROXIED!
+[User action                 ] EndTransactionEvent Click On Login [Network Analyzer (7ba0:2ee4)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0:2ee4)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (2c94:7250)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.250.192.138:443   (Service=)  (Sid= 22)  PROXIED!
+[WebMultiInProcNotify_x64:  (408c:4238)] Insert Text Check: "Welcome"
+[Network Analyzer (7ba0:1ec0)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0:1ec0)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (7ba0:3c04)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTE2LjAuNTg0NS4xODAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDVyBIaAhgF_6pysyIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQq_oMGgIYBVQkHO0iBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEOjwDBoCGAX-zujDIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDylQcaAhgFAQr4XyIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ_zQaAhgFvmZSTSIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQlL0BGgIYBdvTFn4iBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgFYZoFgCIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAWnWUEnIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCHFBoCGAUoD5r0IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARD79wEaAhgFzE01OiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQrcANGgIYBdwAfw8iBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEMocGgIYBRgh3mgiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Client -> Server @ : 1169 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent Select A Pet [Web Request      (7ba0:3c04)] "GET /actions/Catalog.action?viewCategory=&categoryId=FISH"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 840 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 3819 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Select A Pet [Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=5"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 23) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 23) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 23) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 23) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 23) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Select a Product Id [Web Request      (7ba0:3c04)] "GET /actions/Catalog.action?viewProduct=&productId=FI-SW-02"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 872 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 3717 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 21) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Select a Product Id [Network Analyzer (7ba0:3c04)]   (Sid: 16) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Click On Add To Cart [Web Request      (7ba0:3c04)] "GET /actions/Cart.action?addItemToCart=&workingItemId=EST-3"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 380 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click On Add To Cart [Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 142.251.42.74:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (7ba0:8a2c)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7ba0:8a2c)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[WebMultiInProcNotify_x64:  (408c:4238)] Insert Text Check: "Shopping Cart"
+[User action                 ] StartTransactionEvent Click On Proceed To Check out [Web Request      (7ba0:3c04)] "GET /actions/Order.action?newOrderForm="   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 1118 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click On Proceed To Check out [User action                 ] StartTransactionEvent Click On Continue [Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 956 bytes (SSL)(Service=HTTP)
+[Web Request      (7ba0:3c04)] "POST /actions/Order.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 539 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 238 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 24) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Click On Continue [User action                 ] StartTransactionEvent Click On Confirm [Web Request      (7ba0:3c04)] "GET /actions/Order.action?newOrder=&confirmed=true"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 831 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 938 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0: 688)] Address lookup for LTILPUN23801687 = 192.168.56.1
+[Network Analyzer (7ba0: 688)] Request Connection: Remote Server @ 34.104.35.123:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (7ba0:3c04)] "GET /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?authuser=6"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Server -> Client : 297 bytes  (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 25) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Click On Confirm [User action                 ] StartTransactionEvent Click On Retrun Main Menu [Web Request      (7ba0:3c04)] "GET /actions/Catalog.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 710 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click On Retrun Main Menu [User action                 ] StartTransactionEvent Click On Sign Out [Web Request      (7ba0:3c04)] "GET /actions/Account.action?signoff="   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 819 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 218 bytes (SSL) (Service=HTTP)
+[Web Request      (7ba0:3c04)] "GET /actions/Catalog.action"   
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Client -> Server @ : 810 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 19) Server -> Client : 619 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7ba0:3c04)]   (Sid: 22) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Click On Sign Out 

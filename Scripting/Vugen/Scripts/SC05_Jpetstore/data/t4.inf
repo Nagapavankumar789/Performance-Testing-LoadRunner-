@@ -1,0 +1,11 @@
+[t4]
+FileName1=t4.htm
+URL1=https://petstore.octoperf.com/actions/Account.action;jsessionid=F31D3FC3188C9A7F6A5BB4366CB49D3F?signonForm=
+Total=1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
